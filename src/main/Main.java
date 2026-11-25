@@ -1,17 +1,16 @@
 package main;
 
 import modelo.Animal;
-import modelo.Perro;
-import modelo.Gato;
-import modelo.Figura;
 import modelo.Circulo;
+import modelo.Figura;
+import modelo.Gato;
+import modelo.Perro;
 import modelo.Rectangulo;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        // PARTE 1: POLIMORFISMO CON ANIMALES
 
         System.out.println("=== POLIMORFISMO CON ANIMALES ===");
 
@@ -23,8 +22,6 @@ public class Main {
         miPerro.hacerSonido();
         miGato.hacerSonido();
 
-
-        // PARTE 2: POLIMORFISMO CON FIGURAS
 
         System.out.println("\n=== AREAS DE FIGURAS ===");
 
